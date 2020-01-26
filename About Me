@@ -1,0 +1,18 @@
+My day to day work in kubernetes is, solving what ever issue user posted in slack channel. I will look into that issue troubleshoot it. Below are the sample issue i worked many issue are there.
+
+Issue example:
+1) liveliness probe in NPE environments where pods are getting restarted because of liveliness failure
+2) set/increasing the quota for configmaps, pods, services to 90 in these namespaces
+3) Cluster Access issue
+4)Suggesting the application deployment according to user query
+5) configure CA certs in envoy/istio proxy?
+6) NetworkPlugin cni failed to set up pod “otssplab-sa04-9dbfb7c7f-mb9c9_xecm-plab” network: failed to set bridge addr: “cni0" already has an IP address different from 198.18.131.1/24
+7) Verifying if the pipeline got triggered 
+8) error when trying to create a configmap in wsc-qlab02 namespace in px-npe1103 cluster:Error from server (Forbidden): error when creating "configmap-utilityservice-timer-qlab02-pks.yaml": configmaps "utilityservice-timer-qlab02-pks" is forbidden: exceeded quota: object-quota, requested: configmaps=1, used: configmaps=44, limited: configmaps=44. 
+9) Creating a new namespace in the cluster
+10) Complete monitoring the cpu,memory,storage utilization in Grafana.
+11) FailedCreate replicaset/paymenthistory-5bd48844d5 Error creating: pods "paymenthistory-5bd48844d5-rhscl" is forbidden: exceeded quota: cpu-mem-quota, requested: limits.cpu=2600m, used: limits.cpu=15200m, limited: limits.cpu=16
+12)PVC issue
+13) Planning to deploy our changes related to GSLB to production this week. Since we are doing this activity first-time, so just wanted to confirm whether there is any pre-requisite for the same? Moreover, can you please review our clusters are configured and ready to go with GSLB?
+14) The volume is again alerting us for exceeding 91% capacity and firing alerts. 
+15) Having an issue container startup during the deployment.
